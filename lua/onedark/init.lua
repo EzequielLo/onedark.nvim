@@ -8,7 +8,7 @@ local colors = {
   dark_yellow = '#D19A66',
   blue = '#61AFEF',
   purple = '#C678DD', 
-  violet = '#a9a1e1',
+  dark_purple = '#8a3fa0',
   cyan = '#56B6C2',
   white = '#ABB2BF',
   black = '#282C34',
@@ -33,14 +33,14 @@ local highlights = {
   { hg = 'Number', fg = colors.dark_yellow }, --a number constant: 234, 0xff
   { hg = 'Boolean', fg = colors.dark_yellow }, --a boolean constant: TRUE, false
   { hg = 'Float', fg = colors.dark_yellow }, --a floating point constant: 2.3e10
-  { hg = 'Identifier', fg = colors.violet }, --any variable name
+  { hg = 'Identifier', fg = colors.red }, --any variable name
   { hg = 'Function', fg = colors.blue }, --function name (also: methods for classes)
   { hg = 'Statement', fg = colors.purple }, --any statement
   { hg = 'Conditional', fg = colors.purple }, --if, then, else, endif, switch, etc.
   { hg = 'Repeat', fg = colors.purple }, --for, do, while, etc.
   { hg = 'Label', fg = colors.purple }, --case, default, etc.
   { hg = 'Operator', fg = colors.purple }, --sizeof", "+", "*", etc.
-  { hg = 'Keyword', fg = colors.purple }, --any other keyword
+  { hg = 'Keyword', fg = colors.red }, --any other keyword
   { hg = 'Exception', fg = colors.purple }, --try, catch, throw
   { hg = 'PreProc', fg = colors.yellow }, --generic Preprocessor
   { hg = 'Include', fg = colors.blue }, --preprocessor #include
